@@ -1,0 +1,123 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  background-color: blue;
+  padding: 1em 5%;
+  margin: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn {
+  border: 1px solid black;
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.c1 {
+  background-color: blue;
+  color: black;
+  border-radius: 1 em;
+}
+
+.c2 {
+  background-color: red;
+  border-radius: 1 em;
+}
+
+.c3 {
+  background-color: aqua;
+  border-radius: 1 em;
+}
+
+hr {
+  color: white;
+  width: 75%;
+}
+
+main {
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo > img {
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  border-radius: 100%;
+  border-collapse: collapse;
+}
+
+.logo > img:hover {
+  opacity: 0.8;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: transparent;
+}
+/*# sourceMappingURL=ejercicio.css.map */
