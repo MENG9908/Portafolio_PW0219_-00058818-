@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  
+  }
+    
+
+h1{
+color: white;
+justify-content: center;
+display: flex;
+
+}
+#espacio{
+    display: grid;
+
+    justify-content: center;
+
+    grid-template: 100px 100px 100px/ 100px 100px 100px;
+    grid-gap: 5px;
+}
+
+
+#espacio>.one{
+    background: url();
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#espacio>.two{
+    background-image: url();
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+#espacio>.three{
+    background-image: url();
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#espacio>.four{
+    background-image: url();
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+#espacio>.five{
+    background-image: url();
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+   
