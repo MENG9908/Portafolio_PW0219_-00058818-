@@ -1,0 +1,9 @@
+div(id="main")
+    div(class="inner")
+        header
+            h1= `Bienvenido a WikiSalud`
+            p Està es un pàgina para que puedas conocer sobre algunas enfermedades, y sobre: SIntomas, sus causas, Y que tan mortal(F si tenes una)
+        section(class="tiles" id="section")
+            each producto in productos
+                article(class="style1")
+             h2 Enfermedad.nombre
