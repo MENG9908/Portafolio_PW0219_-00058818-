@@ -13,8 +13,7 @@ mongoose.connect('mongodb+srv://Mauricio:<Mauricio2019>@parcialweb-5lcxk.mongodb
   useCreateIndex: true,
   useNewUrlParser: true,
   useUnifiedTopology: true 
-  })
-  .then(() => {
+  }.then(() => {
     debug("success Connected to database")
   })
   .catch((err) => {

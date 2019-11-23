@@ -1,4 +1,4 @@
-var Watch = require('../models/enfermedad')
+var Sick = require('../models/enfermedad')
 
 module.exports.getOne = (req,res,next) => {
     debug("Search Enfermedad", req.params);
@@ -36,7 +36,7 @@ module.exports.getAll = (req,res,next) => {
         })
 }
 
-module.exports.updateWatch = (req,res,next) => {
+module.exports.updateSick = (req,res,next) => {
     let update = {
         nombre: req.params.nombre,
         causa: req.params.causa,
@@ -47,7 +47,7 @@ module.exports.updateWatch = (req,res,next) => {
 
    
 
-module.exports.deleteWatch = (req,res,next) => {
+module.exports.deleteSick = (req,res,next) => {
     debug("Delete enfermedad", {
         modelo: req.params.nombre
     });
@@ -80,7 +80,7 @@ module.exports.register = (req,res,next) => {
             });
             return newEnfer.save();
         }
-    }).then(watch => {
+    }).then(Sick => {
         return res
                 .header( '/enfermedad/' + enfermedad.nombre)
                 .status(201)
@@ -90,5 +90,4 @@ module.exports.register = (req,res,next) => {
 
     }).catch(err =>{
         next(err);
-    })
-};
+    }
